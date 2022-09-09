@@ -1,0 +1,238 @@
+    body{
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+    }
+
+    .homepage{ 
+        background-image: url(./img/yana-hurskaya-O4sAutEMPNM-unsplash.jpg); 
+        background-position: center center; 
+        background-size:cover; 
+        background-repeat: no-repeat; 
+        /* background-attachment: fixed;  */
+        background-origin: padding-box; 
+        background-clip: border-box;
+        /* background-color:rgba(0, 0, 0, 0.1); */
+        /* filter: brightness(.93); */
+        max-width:auto;
+        height: 601px;
+        border: solid 8px black;
+        border-radius: 8px;
+        }
+    .navbar-brand{ 
+        font-weight:600;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        color: rgba(1, 1, 1, 0.7);
+    } 
+    .coverheading a{
+        border-bottom: solid 3px black;
+    }   
+    .aboutsec{
+        margin: 4rem 2rem;
+        padding: 2rem 2rem;
+        border-bottom: solid 3px black;
+    }                                                         
+    .owl-carousel .item p{
+        font-size:medium ;
+    }  
+    .ourstory{
+        border-bottom: solid 3px black;
+    }
+    .ourstorycolcontainer{
+        position: relative;
+    }
+    .ourstorytext{
+        top:5rem;
+    }
+    .collectioncontainer{
+        margin-top: 10rem;
+        margin-bottom: 3rem;
+    }
+    .collectiondiv{
+        position: relative;
+    }
+    .collectiontext{
+        position: absolute;
+        bottom: 41px;
+        left: 46px;
+    }
+    /* .colimg{
+        opacity: 0.9;
+    } */
+    .list-unstyled li{
+        margin-bottom: 0.5rem;
+    }
+    .footercon{
+        margin-top: 12rem;
+        border-top: solid 3px black;
+    }
+    .smfootercon{
+        margin-top: 4rem;
+        border-top: solid 3px black;
+        
+    }
+
+
+    /* aboutpagee */
+    .aboutpage{ 
+        background-image: url(./img/about/pexels-cottonbro-6739232.jpg); 
+        background-position: center center; 
+        background-size:cover; 
+        background-repeat: no-repeat; 
+        /* background-attachment: fixed;  */
+        background-origin: padding-box; 
+        background-clip: border-box;
+        /* background-color:rgba(0, 0, 0, 0.1); */
+        /* filter: brightness(.93); */
+        max-width:auto;
+        height: 400px;
+        border: solid 8px black;
+        border-radius: 8px;
+        }
+
+    .aboutpagesec{
+        margin: 8rem auto;
+        padding: 0 5rem;
+    }
+    .aboutimgdiv{
+        height: 400px;
+    }
+.imgrow{
+    margin-top: 2rem;
+}
+    .aboutpagesec img{
+    height: 74% !important;
+    padding-right: 2rem;
+    /* margin: 0 auto; */
+    }
+.aboutpageaboutheading , .returnpagereturnheading{
+    border-bottom: solid 3px black;
+}
+
+/* contactt pagee */
+.contactpage{ 
+    background-image: url(./img/contact/ktryna-sIhndYXDYlY-unsplash.jpg); 
+    background-position: center center; 
+    background-size:cover; 
+    background-repeat: no-repeat; 
+    /* background-attachment: fixed;  */
+    background-origin: padding-box; 
+    background-clip: border-box;
+    /* background-color:rgba(0, 0, 0, 0.1); */
+    /* filter: brightness(.93); */
+    max-width:auto;
+    height: 400px;
+    border: solid 8px black;
+    border-radius: 8px;
+    }
+
+.contactpagesec{
+    margin: 8rem auto;
+    padding: 0 5rem;
+}
+.formdiv input, .formdiv textarea{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color: currentcolor;
+    border-radius: initial;
+}
+.formdiv{
+    border: 2px solid black;
+    border-radius: 1em;
+}
+
+
+/* accountpagee */
+.formsection{
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(20, 18, 20, 0.73)),
+    url('img/account/pexels-tony-smith-3505699.jpg');
+    background-position: center center; 
+    background-size:cover; 
+    background-repeat: no-repeat; 
+    /* background-attachment: fixed;  */
+background-origin: padding-box; 
+background-clip: border-box;
+border: solid 8px black;
+    border-radius: 8px;
+}
+
+.Loginsignupdiv{
+    padding: 19px 0;
+    /* border: 2px solid black; */
+    border-bottom: 2px solid;
+}
+.Loginsignupouterdiv{
+    border: 2px solid black;
+    border-radius: 17px;
+    background-color: whitesmoke;
+    }
+    .loginbottom{
+        border-bottom: 3px solid black;
+        border-radius: 3px;
+    }
+.activeform{
+        border-bottom: 3px solid black;
+        border-radius: 3px;
+    }
+/* .Loginsignupdiv a:active{
+    border-bottom: 3px solid black;
+    border-radius: 3px;  
+}  */
+
+/* 
+background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('images/background.jpg'); */
+
+
+
+/* shop pages */
+.cathead{
+    border-bottom: solid 3px black;
+}
+
+.pagination .active a{
+    background-color: black !important;
+    border: 2px solid black !important;
+}
+
+/* shipping */
+.shippingimgdiv, .returnimgdiv{
+    height: 500px;
+}
+
+/* searchh */
+#searchicon{
+    position: relative;
+    top: 4px;
+}
+#search{
+    cursor:text;
+    border: 2px solid black;
+  background-color: whitesmoke;
+  height: 30px;
+  display: none;
+  outline: none;
+ 
+}
+
+.searchlink{
+    position:relative;
+}
+#clearicon{
+    position: absolute;
+    top: 13px;
+    right: 15px;
+    /* margin-top: -2.5rem;
+    margin-left: 90%; */
+    z-index: 2;
+    display: none;
+    
+    transform: translateX(2px);
+}
