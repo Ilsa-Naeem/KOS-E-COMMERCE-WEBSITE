@@ -219,8 +219,12 @@ background-image:
   height: 30px;
   display: none;
   outline: none;
+  /* transition: display 2s linear 1s; */
  
 }
+/* .searchtrans{
+    transition: display 2s ease-in 1s;
+} */
 
 .searchlink{
     position:relative;
